@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyaudio = "*"
+numpy = "*"
+matplotlib = "*"
+scipy = "*"
+sklearn = "*"
+python-speech-features = "*"
+scikit-learn = "*"
+flask-cors = "*"
+moviepy = "*"
+flask = {extras = ["async"], version = "*"}
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
